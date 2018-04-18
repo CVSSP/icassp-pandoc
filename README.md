@@ -35,3 +35,10 @@ commands, in addition to the built PDF file `paper.pdf` and a copy of all cited
 bibtex entries `paper_biber.bib`.
 
 Enter `make clean` to remove the `build` directory.
+
+# Acknowledgements
+
+[ieee-pandoc-template](https://github.com/stsewd/ieee-pandoc-template) was used as a starting point.
+
+Note that the bibliography is not correctly formatted when using the ieee CSL
+file, hence why I use the `--biblatex` flag when calling pandoc.
